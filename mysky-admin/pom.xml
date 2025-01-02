@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mysky</artifactId>
-        <groupId>com.sky</groupId>
+        <artifactId>storyroute</artifactId>
+        <groupId>com.storyroute</groupId>
         <version>3.8.7</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>mysky-admin</artifactId>
+    <artifactId>storyroute-admin</artifactId>
 
     <description>
         web服务入口
@@ -45,30 +45,30 @@
 
         <!-- 核心模块-->
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>mysky-framework</artifactId>
+            <groupId>com.storyroute</groupId>
+            <artifactId>storyroute-framework</artifactId>
         </dependency>
 
         <!-- 定时任务-->
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>mysky-quartz</artifactId>
+            <groupId>com.storyroute</groupId>
+            <artifactId>storyroute-quartz</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>mysky-generator</artifactId>
+            <groupId>com.storyroute</groupId>
+            <artifactId>storyroute-generator</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>mysky-merchant</artifactId>
+            <groupId>com.storyroute</groupId>
+            <artifactId>storyroute-merchant</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>mysky-business</artifactId>
+            <groupId>com.storyroute</groupId>
+            <artifactId>storyroute-business</artifactId>
         </dependency>
 
     </dependencies>
